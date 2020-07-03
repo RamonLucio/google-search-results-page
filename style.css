@@ -1,11 +1,12 @@
 nav {
     height: 70px;
-    line-height: 70px;
-    
+    display: flex;
+    align-items: center;
 }
 
 #google-logo {
     width: 92px;
+    margin-left: 20px;
 }
 
 #search-bar {
@@ -16,6 +17,9 @@ nav {
     border: 1px solid #dfe1e5;
     background-color: white;
     font-size: 16px;
+    margin-left: 40px;
+    padding-left: 19px;
+}
 }
 
 #search-bar:hover {
@@ -26,10 +30,10 @@ nav {
 #twelve-dots-icon {
     width: 30px;
     height: 15px;
-    margin-top: 20px;
+    padding-left: 400px;
 }
 
 #user-logo {
     width: 30px;
-    margin-top: 10px;
+    padding-left: 15px;
 }
