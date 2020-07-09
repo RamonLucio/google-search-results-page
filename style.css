@@ -60,4 +60,15 @@ li {
 
 #first-link {
     padding-left: 175px;
+    color: #1A73E8;
+    text-decoration: none;
+}
+
+a > span {
+    padding-right: 7px;
+}
+
+.nav-link {
+    color: #5f6368;
+    text-decoration: none;
 }
