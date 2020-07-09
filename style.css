@@ -27,10 +27,15 @@ nav {
     border-color: rgba(223,225,229,0);
 }
 
+@media screen and (min-width: 800px) {
+    #twelve-dots-icon {
+        padding-left: 400px;
+    }
+}
+
 #twelve-dots-icon {
     width: 30px;
     height: 15px;
-    padding-left: 400px;
 }
 
 #user-logo {
