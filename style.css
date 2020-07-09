@@ -1,4 +1,4 @@
-nav {
+#top-div {
     height: 70px;
     display: flex;
     align-items: center;
@@ -20,7 +20,6 @@ nav {
     margin-left: 40px;
     padding-left: 19px;
 }
-}
 
 #search-bar:hover {
     box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
@@ -41,4 +40,24 @@ nav {
 #user-logo {
     width: 30px;
     padding-left: 15px;
+}
+
+nav {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    padding: 10px;
+    font-size: 13px;
+}
+
+#first-link {
+    padding-left: 175px;
 }
