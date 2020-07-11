@@ -1,3 +1,8 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
 #top-div {
     height: 70px;
     display: flex;
@@ -39,6 +44,10 @@
         box-shadow: none;
         border-bottom: 1px solid #dfe1e5;
     }
+
+    #results {
+        padding-left: 175px;
+    }
 }
 
 #twelve-dots-icon {
@@ -79,4 +88,9 @@ a > span {
 .nav-link {
     color: #5f6368;
     text-decoration: none;
+}
+
+#results {
+    color: #70757a;
+    line-height: 43px;
 }
