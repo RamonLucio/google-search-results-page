@@ -45,23 +45,7 @@ body {
         border-bottom: 1px solid #dfe1e5;
     }
 
-    #results {
-        padding-left: 175px;
-    }
-
-    .site {
-        padding-left: 175px;
-    }
-
-    .div-link {
-        padding-left: 175px;
-    }
-
-    .description {
-        padding-left: 175px;
-    }
-
-    #last-visit {
+    .container {
         padding-left: 175px;
     }
 }
@@ -106,6 +90,10 @@ a > span {
     text-decoration: none;
 }
 
+.container {
+    width: 600px;
+}
+
 #results {
     color: #70757a;
     line-height: 43px;
@@ -142,4 +130,11 @@ a > span {
 
 #last-visit {
     color: #70757a;
+    margin-bottom: 20px;
+}
+
+.indented-results {
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 25px;
 }
