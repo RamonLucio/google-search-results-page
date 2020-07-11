@@ -53,7 +53,7 @@ body {
         padding-left: 175px;
     }
 
-    .big-link {
+    .div-link {
         padding-left: 175px;
     }
 
@@ -109,10 +109,21 @@ a > span {
 #results {
     color: #70757a;
     line-height: 43px;
+    margin-bottom: 5px;
+}
+
+.site {
+    color: #202124;
+    margin-bottom: 7px;
+}
+
+.div-link {
+    font-size: 20px;
+    margin-bottom: 7px;
 }
 
 .big-link {
-    font-size: 20px;
+    color: #1a0dab;
     text-decoration: none;
 }
 
@@ -120,8 +131,13 @@ a > span {
     text-decoration: underline;
 }
 
+.big-link:visited {
+    color: #609;
+}
+
 .description {
     color: #5f6368;
+    margin-bottom: 5px;
 }
 
 #last-visit {
