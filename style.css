@@ -48,6 +48,22 @@ body {
     #results {
         padding-left: 175px;
     }
+
+    .site {
+        padding-left: 175px;
+    }
+
+    .big-link {
+        padding-left: 175px;
+    }
+
+    .description {
+        padding-left: 175px;
+    }
+
+    #last-visit {
+        padding-left: 175px;
+    }
 }
 
 #twelve-dots-icon {
@@ -93,4 +109,21 @@ a > span {
 #results {
     color: #70757a;
     line-height: 43px;
+}
+
+.big-link {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.big-link:hover {
+    text-decoration: underline;
+}
+
+.description {
+    color: #5f6368;
+}
+
+#last-visit {
+    color: #70757a;
 }
