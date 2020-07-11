@@ -30,6 +30,15 @@
     #twelve-dots-icon {
         padding-left: 400px;
     }
+
+    #first-link {
+        padding-left: 165px;
+    }
+    
+    nav {
+        box-shadow: none;
+        border-bottom: 1px solid #dfe1e5;
+    }
 }
 
 #twelve-dots-icon {
@@ -59,7 +68,6 @@ li {
 }
 
 #first-link {
-    padding-left: 175px;
     color: #1A73E8;
     text-decoration: none;
 }
