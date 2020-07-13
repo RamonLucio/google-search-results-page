@@ -48,6 +48,14 @@ body {
     .container {
         padding-left: 175px;
     }
+
+    #google-letters {
+        padding-left: 150px;
+    }
+
+    #number-links {
+        padding-left: 185px;
+    }
 }
 
 #twelve-dots-icon {
@@ -171,5 +179,54 @@ h1 {
 }
 
 .bottom-links:hover {
+    text-decoration: underline;
+}
+
+#google-letters {
+    display: flex;
+}
+
+#upper-blue-g {
+    background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;
+    background-position: -24px 0;
+    width: 28px;
+    height: 40px;
+}
+
+#red-o {
+    background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;
+    background-position: -53px 0;
+    width: 20px;
+    height: 40px;
+}
+
+.yellow-o {
+    background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;
+    background-position: -74px 0;
+    width: 20px;
+    height: 40px;
+}
+
+#colored-gle {
+    background: url(https://www.google.com/images/nav_logo299.webp) no-repeat;
+    background-position: -96px 0;
+    width: 71px;
+}
+
+#number-links {
+    display: flex;
+}
+
+#number-one {
+    text-decoration: none;
+}
+
+.blue-number-links {
+    color: #4285f4;
+    text-decoration: none;
+    padding-left: 12px;
+}
+
+.blue-number-links:hover {
     text-decoration: underline;
 }
