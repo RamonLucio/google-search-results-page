@@ -70,7 +70,7 @@ ul {
     padding: 0;
 }
 
-li {
+.top-list {
     float: left;
     padding: 10px;
     font-size: 13px;
@@ -144,10 +144,32 @@ a > span {
     width: 100%;
 }
   
-  .column {
+.column {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
     padding-left: 25px;
+}
+
+.path {
+    color: #5f6368;;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 20px;
+    color: #222;
+    padding: 10px 0;
+}
+
+.bottom-links {
+    line-height: 24px;
+    font-size: 16px;
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.bottom-links:hover {
+    text-decoration: underline;
 }
