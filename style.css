@@ -97,12 +97,16 @@ a > span {
 #results {
     color: #70757a;
     line-height: 43px;
-    margin-bottom: 5px;
 }
 
 .site {
     color: #202124;
-    margin-bottom: 7px;
+    padding-top: 30px;
+    padding-bottom: 7px;
+}
+
+#first-site {
+    padding-top: 5px;
 }
 
 .div-link {
