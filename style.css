@@ -60,10 +60,6 @@ body {
     .footer-bar {
         padding-left: 175px;
     }
-
-    .footer-padding {
-        padding-right: 20px;
-    }
 }
 
 #twelve-dots-icon {
@@ -71,9 +67,17 @@ body {
     height: 15px;
 }
 
+#twelve-dots-icon:hover {
+    opacity: .75;
+}
+
 #user-logo {
     width: 30px;
     padding-left: 15px;
+}
+
+#user-logo:hover {
+    opacity: .75;
 }
 
 nav {
@@ -224,6 +228,7 @@ h1 {
 #number-links {
     display: flex;
     padding-left: 35px;
+    padding-bottom: 25px;
 }
 
 #number-one {
@@ -238,6 +243,10 @@ h1 {
 
 .blue-number-links:hover {
     text-decoration: underline;
+}
+
+#more {
+    padding-left: 50px;
 }
 
 footer {
@@ -269,4 +278,16 @@ footer {
 .footer-links {
     color: rgba(0,0,0,.54);
     text-decoration: none;
+}
+
+.footer-links:hover {
+    color: #333;
+}
+
+.footer-padding {
+    padding-right: 20px;
+}
+
+.fa-star {
+    color: orange;
 }
