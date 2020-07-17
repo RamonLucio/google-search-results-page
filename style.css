@@ -50,11 +50,19 @@ body {
     }
 
     #google-letters {
-        padding-left: 150px;
+        padding-left: 200px;
     }
 
     #number-links {
-        padding-left: 185px;
+        margin-left: 200px;
+    }
+
+    .footer-bar {
+        padding-left: 175px;
+    }
+
+    .footer-padding {
+        padding-right: 20px;
     }
 }
 
@@ -215,6 +223,7 @@ h1 {
 
 #number-links {
     display: flex;
+    padding-left: 35px;
 }
 
 #number-one {
@@ -229,4 +238,35 @@ h1 {
 
 .blue-number-links:hover {
     text-decoration: underline;
+}
+
+footer {
+    color: rgba(0,0,0,.54);
+    background: #f2f2f2;
+    line-height: 40px;
+    border-top: 1px solid #e4e4e4;
+}
+
+.footer-bar {
+    border-bottom: 1px solid #e4e4e4;
+}
+
+#bolinha {
+    border-radius: 100%;
+    display: inline-block;
+    height: 10px;
+    margin: 6px 4px 9px 0;
+    vertical-align: middle;
+    width: 10px;
+    background: #9e9e9e;
+}
+
+#location {
+    color: #333;
+    font-weight: bold;
+}
+
+.footer-links {
+    color: rgba(0,0,0,.54);
+    text-decoration: none;
 }
