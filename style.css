@@ -295,10 +295,14 @@ footer {
 #panel {
     width: 454px;
     height: 422px;
+    border-radius: 8px;
+    padding: 16px;
+    border: 1px solid #dfe1e5;
 }
 
 #panel-header {
     display: flex;
+    border-bottom: 1px solid #dfe1e5;
 }
 
 #header-div {
@@ -339,6 +343,11 @@ h1 {
     height: 79px;
 }
 
+#links-div {
+    padding-top: 10px;
+    height: 75px;
+}
+
 .bold-panel-link {
     font-weight: bolder;
     color: #222;
@@ -377,6 +386,10 @@ h1 {
     text-decoration: underline;
 }
 
+#also-searched-links {
+    padding-top: 16px;
+}
+
 #also-searched {
     font-size: 20px;
     text-decoration: none;
@@ -397,6 +410,7 @@ h1 {
 }
 
 #related-images {
+    padding-top: 16px;
     display: flex;
     justify-content: space-between;
 }
@@ -419,4 +433,12 @@ h1 {
 .related-links-children {
     min-width: 77px;
     min-height: 20px;
+}
+
+@media screen and (min-width: 1300px) {
+    #panel {
+        position: absolute;
+        top: 160px;
+        right: 0;
+    }
 }
