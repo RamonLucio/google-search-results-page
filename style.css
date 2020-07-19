@@ -176,7 +176,7 @@ a > span {
     color: #5f6368;;
 }
 
-h1 {
+h2 {
     font-weight: normal;
     font-size: 20px;
     color: #222;
@@ -290,4 +290,75 @@ footer {
 
 .fa-star {
     color: orange;
+}
+
+#panel {
+    width: 454px;
+    height: 422px;
+}
+
+#panel-header {
+    display: flex;
+}
+
+#header-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#h1-div {
+    width: 303px;
+}
+
+h1 {
+    color: rgba(0,0,0,.87);
+    font-size: 30px;
+    font-weight: normal;
+    display: inline;
+}
+
+.fa-share-alt {
+    padding-left: 15px;
+}
+
+#empresa {
+    line-height: 1.58;
+}
+
+#img-div {
+    width: 151px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#odin-img {
+    width: 151px;
+    height: 79px;
+}
+
+.bold-panel-link {
+    font-weight: bolder;
+    color: #222;
+    text-decoration: none;
+}
+
+.underline-hover:hover {
+    text-decoration: underline;
+}
+
+#blue-link {
+    color: #1a0dab;
+    text-decoration: none;
+}
+
+.line-div {
+    line-height: 1.58;
+}
+
+#exoneracao {
+    float: right;
+    text-decoration: none;
 }
